@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/custom_blue2"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/licenceIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+
+        android:hint="Licence ID"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+
+        android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/hospitalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/specialtyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Specialty"
+        android:textColorHint="@color/white"
+
+        android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:textColorHint="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@android:color/white"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="12dp" />
+
+</LinearLayout>

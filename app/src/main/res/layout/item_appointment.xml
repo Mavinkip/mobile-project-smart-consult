@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corners_background">
+
+    <TextView
+        android:id="@+id/textViewSpecialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Specialization"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+</LinearLayout>

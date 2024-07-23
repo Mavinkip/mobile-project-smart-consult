@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPredictedDiseaseValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predicted Disease"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewSelectedSymptomsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Symptoms"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewPredictedDiseaseValue"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewMedicationsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medications"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewSelectedSymptomsValue"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewTimestampValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timestamp"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewMedicationsValue"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

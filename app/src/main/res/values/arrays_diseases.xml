@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="disease">
+        <item>Fungal infection</item>
+        <item>Allergy</item>
+        <item>GERD</item>
+        <item>Chronic cholestasis</item>
+        <item>Drug Reaction</item>
+        <item>Peptic ulcer diseae</item>
+        <item>AIDS</item>
+        <item>Diabetes</item>
+        <item>Gastroenteritis</item>
+        <item>Bronchial Asthma</item>
+        <item>Hypertension</item>
+        <item>Migraine</item>
+        <item>Cervical spondylosis</item>
+        <item>Paralysis (brain hemorrhage)</item>
+        <item>Jaundice</item>
+        <item>Malaria</item>
+        <item>Chicken pox</item>
+        <item>Dengue</item>
+        <item>Typhoid</item>
+        <item>hepatitis A</item>
+        <item>Hepatitis B</item>
+        <item>Hepatitis C</item>
+        <item>Hepatitis D</item>
+        <item>Hepatitis E</item>
+        <item>Alcoholic hepatitis</item>
+        <item>Tuberculosis</item>
+        <item>Common Cold</item>
+        <item>Pneumonia</item>
+        <item>Dimorphic hemmorhoids(piles)</item>
+        <item>Heartattack</item>
+        <item>Varicoseveins</item>
+        <item>Hypothyroidism</item>
+        <item>Hyperthyroidism</item>
+        <item>Hypoglycemia</item>
+        <item>Osteoarthristis</item>
+        <item>Arthritis</item>
+        <item>(vertigo) Paroymsal Positional Vertigo</item>
+        <item>Acne</item>
+        <item>Urinary tract infection</item>
+        <item>Psoriasis</item>
+        <item>Impetigo</item>
+    </string-array>
+</resources>
